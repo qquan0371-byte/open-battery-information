@@ -4,7 +4,7 @@ import tkinter as tk
 import time
 
 def get_display_name():
-    return "Makita LXT"
+    return "hikoki multivolt"
 
 # Command Definitions
 MODEL_CMD           = [0x01, 0x02, 0x10, 0xCC, 0xDC, 0x0C]
@@ -386,4 +386,5 @@ class ModuleApplication(tk.Frame):
         messagebox.showinfo("Copied", "Selected rows have been copied to the clipboard.")
 
     def clear_data(self):
+
         self.insert_battery_data(initial_data)
