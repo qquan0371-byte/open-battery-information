@@ -4,7 +4,7 @@ import tkinter as tk
 import time
 
 def get_display_name():
-    return "Makita LXT"
+    return "Hikoki BSL"
 
 # Command Definitions
 MODEL_CMD           = [0x01, 0x02, 0x10, 0xCC, 0xDC, 0x0C]
